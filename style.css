@@ -1,0 +1,763 @@
+/* CSS Reset: http://meyerweb.com/eric/thoughts/2011/01/03/reset-revisited/ */
+
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+
+
+/* CSS starts here */
+
+body {
+	margin-top:0px;
+	margin-right:0;
+	margin-left:0;
+	margin-bottom: 0;
+	min-height: 500px;
+	min-width:1200px;
+	
+}
+
+#header {
+	
+	border-width:2px;
+	color:black;
+	width:100%;
+	height:185px;
+	margin:0;	
+	text-align:center;
+	border-bottom: 6px solid orange;
+	
+}
+#header a img { 
+	width: auto;
+	height: 180px;
+}
+
+#content {
+	width:70%;
+	display:block;
+	overflow:hidden;
+	margin:auto;
+	margin-bottom:4%;
+	margin-top:20px;
+	font-family: helvetica;
+	padding-left:20px;
+	padding-bottom:40px;
+	padding-right: 20px;
+	position: static;
+	min-height:460px;
+}
+#content-index {
+	width:70%;
+	display:block;
+	overflow:hidden;
+	margin:auto;
+	margin-bottom:4%;
+	margin-top:20px;
+	font-family: helvetica;
+	padding-left:20px;
+	padding-bottom:40px;
+	padding-right: 20px;
+	position: static;
+	min-height:460px;
+	text-align:center;
+}
+.footnote  {
+	text-align:center;
+	margin:0;
+	margin-bottom: 0px;
+	background-color:green;
+	padding-top: 10px;
+	width:100%;
+	color:white;
+	height:40px;
+}
+.footnote  a {
+	color:white;
+	
+}
+.footnote  a:visited {
+	color:white;
+
+}
+#register {
+	width:40%;
+	display:block;
+	overflow:hidden;
+	margin:auto;
+	margin-bottom:4%;
+	font-family: helvetica;
+	margin-top:80px;
+	padding-left:20px;
+	padding-bottom:25px;
+	padding-right: 20px;
+	text-align:center;
+	width:80%;
+}
+#register i {
+	color:red;
+	text-decoration:none;
+}
+
+#inbox {
+	width:100%;
+}
+#inbox tr th{
+	color: white;
+	background-color:black;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#inbox td{
+	background-color:#CCCCCC;
+}
+#send {
+	padding-top:3%;
+	padding-bottom:3%;
+	text-align:center;
+	background-color:#00e68a;
+	color:white;
+	 border-radius: 25px;
+}
+#send p {
+	text-align:left;
+	padding-left:8%;
+}
+#search_form {
+	
+	margin:auto;
+}
+#depart {
+	background-color: #89ceae;
+	width:45%;
+	float:left;
+	padding-left:1%;
+	padding-bottom:3%;
+	margin-right:4%;
+	margin-left:2%;
+	margin-bottom:50px;
+	color:white;
+	
+}
+#arrivee {
+	float:left;
+	padding-bottom:3%;
+	width:45%;
+	background-color:   #89ceae;
+	padding-left:1%;
+	color:white;
+	margin-bottom:50px;
+}
+#comment {
+	width:100%;
+	height:100px;
+	background-color:  #89ceae;
+	font-size:18px;
+	font-family:helvetica;
+	
+}
+#widget_avatar {
+	float:right;
+	width: 160px;
+	margin-top: -40px;
+	margin-right:0;
+	padding-left:20px;
+	padding-bottom:5px;
+	padding-right: 60px;
+	text-align:center;
+	min-height: 150px;
+	
+}
+#avatar {
+	width: 160px;
+	max-width: 100%;
+	height: auto;
+	margin-bottom:5px;
+}
+#widget_inbox {
+	width: 96%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 1%;
+	margin-bottom: 2%;
+	padding-left:20px;
+	padding-bottom:25px;
+	padding-right: 20px;
+	
+}
+#widget_location {
+	width:350px;
+	text-align:center;
+	float:left;
+	padding: 0px 15px 15px 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#widget_location  ul{
+	text-align:left;
+	list-style:none;
+}
+#informations{
+	width:400px;
+	padding: 0px 15px 15px 15px;
+	display:block;
+	float:right;
+	text-align:center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin:auto;
+}
+#active_offers {
+	width:500px;
+	padding-top:50px;
+	height:140px;
+}
+
+#GPS_form {
+    color: #248f24; 
+    text-align: center;
+	width:100%;
+	min-height:550px;
+}
+#GPS_form h3 {
+    color: green; 
+    text-align: left;
+	font-size:25px;
+}
+#gpsconfirm {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+}
+#gpsconfirm:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#map {
+	margin-top:5%;
+}
+#buttonsearch {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#buttonsearch:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#buttonNewMessage {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#buttonNewMessage:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#buttonSentMessages {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#buttonSentMessages:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: orange;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#myBtn {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	
+	
+	width:150px;
+}
+#myBtn:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: blue;
+    border: none;
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	
+	
+	width:150px;
+}
+
+#buttonsearchlift {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	width:150px;
+	margin-top:15px;
+}
+#buttonsearchlift:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: orange;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	width:150px;
+	
+}
+#buttonPrev {
+	width:110px;
+	height:40px;
+}
+
+#buttonNext {
+	width:110px;
+	height:40px;
+}
+
+#search_results {
+	padding-bottom:10px;
+	margin-top : 12%;
+	background-color:#f2f2f2;
+}
+#results-tab {
+	color:white;
+}
+#results-tab th{
+
+	color:white;
+	font-size:22px;
+	
+}
+#results-tab  tr{
+	background-color:black;
+	color:orange;
+	border:1px solid white;
+	text-align: center;
+}
+#results-tab td{
+	background-color:black;
+	color:orange;
+	text-align: center;
+}
+#corps {
+	background-color: #f2f2f2;
+	color:black;
+	border:#804d00;
+	height: 150px;
+	
+}#reply{
+    background-color: #00ff00;
+    border: none;
+    color: black;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	float:right;
+}
+#reply:hover {
+	background-color: #00ff99;
+    border: none;
+    color: black;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	float:right;
+}
+#delete{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	float:right;
+}
+#delete:hover {
+	background-color: red;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	float:right;
+}
+#onemessage {
+	background-color:black;
+	color:white;
+}
+#onMap {
+	margin:0;
+	padding:0;
+	width:500px;
+	height:500px;
+	text-align:center;
+	border:1px solid black;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#buttonConfirm {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+#left_panel {
+	float:left;
+	padding:0;
+	margin-right:auto;
+	margin-left:5%;
+	display: inline-block;
+	width:500px;
+}
+#loginpic  {
+	background-image: URL('images/login.png');
+    padding: 25px 120px;
+    text-align: center;
+     display: inline-block;
+    background-repeat:no-repeat;
+}
+#registerpic  {
+	background-image: URL('images/signup.png');
+    padding: 25px 120px;
+    text-align: center;
+    display: inline-block;
+    background-repeat:no-repeat;
+}
+#loginpic:hover  {
+	background-image: URL('images/loginho.png');
+    padding: 25px 120px;
+    text-align: center;
+    display: inline-block;
+    background-repeat:no-repeat;
+}
+#registerpic:hover  {
+	background-image: URL('images/signupho.png');
+    padding: 25px 120px;
+    text-align: center;
+    display: inline-block;
+    background-repeat:no-repeat;
+}
+#right_panel {
+	float:right;
+	padding:0;
+	margin-right:5%;
+	margin-left:auto;
+	display: inline-block;
+	width:500px;
+}
+#offerpic  {
+	background-image: URL('images/offer.png');
+    padding: 25px 120px;
+    text-align: center;
+        display: inline-block;
+    background-repeat:no-repeat;
+}
+#searchpic  {
+	background-image: URL('images/search.png');
+    padding: 25px 120px;
+    text-align: center;
+    display: inline-block;
+    background-repeat:no-repeat;
+}
+#offerpic:hover  {
+	background-image: URL('images/offerho.png');
+    padding: 25px 120px;
+    text-align: center;
+    display: inline-block;
+    background-repeat:no-repeat;
+}
+#searchpic:hover  {
+	background-image: URL('images/searchho.png');
+    padding: 25px 120px;
+    text-align: center;
+    display: inline-block;
+    background-repeat:no-repeat;
+}
+#home_panel {
+	margin:auto;
+	height:70px;
+	width:80px;
+}
+#homepic  {
+	background-image: URL('images/home.png');
+    padding:auto;
+   display: inline-block;
+    background-repeat:no-repeat;
+	padding: 70px 80px;
+}
+#homepic:hover  {
+	background-image: URL('images/homeho.png');
+    padding:auto;
+    padding: 70px 80px;
+    background-repeat:no-repeat;
+}
+#offerconfirm {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+	
+}
+#offerconfirm:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: orange; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	
+	
+}
+#divconfirm {
+	text-align:center;
+	margin-top:15px;
+}
+#social {
+	width:250px;
+	height:300px;
+	background-color:#33cc00;
+	float:left;
+	text-align:center;
+}
+#gogreen {
+	width:250px;
+	height:300px;
+	background-color:#33cc00;
+	float:right;
+	text-align:center;
+}
+#money {
+	width:250px;
+	height:300px;
+	background-color:#33cc00;
+	margin:auto;
+	text-align:center;
+
+}
+#socialpic{
+	width:120px;
+	height:120px;
+}
+#gogreenpic{
+	width:120px;
+	height:120px;
+}
+#savingspic{
+	width:120px;
+	height:120px;
+}
+#error {
+	color:red;
+	font-size:22px;
+	text-align:center;
+	margin-top:30px;
+}
+#GPSerror {
+	color:red;
+	font-size:22px;
+	text-align:center;
+	margin-top:30px;
+}
+#upload {
+	color:red;
+	font-size:22px;
+	text-align:center;
+	margin-top:30px;
+}
+
+.deletepic {
+	width: 17px;
+	max-width: 100%;
+	height: auto;
+	margin-right: 15px;
+	
+}
+
+.avatarinsearch {
+	width: 80px;
+	max-width: 100%;
+	height: auto;
+	float:right;
+	margin-right:5px;
+}
+#numero1 {
+	width:50px;
+	height:50px;
+	background-image: URL('images/1.png');
+	margin:auto;
+}
+#numero2 {
+	width:50px;
+	height:50px;
+	background-image: URL('images/2.png');
+	margin:auto;
+	margin-top:0;
+}
+#numero3 {
+	width:50px;
+	height:50px;
+	background-image: URL('images/3.png');
+	margin:auto;
+}
+#numero4 {
+	width:50px;
+	height:50px;
+	background-image: URL('images/4.png');
+	margin:auto;
+}
+#imageIndex {
+	width:900px;
+	height:auto;
+}
